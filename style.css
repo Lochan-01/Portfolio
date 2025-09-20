@@ -227,21 +227,23 @@ section {
     width: 100%;
 }
 
-/* HOME IMAGE FIXED */
 .home-imgHover {
-    position: absolute;
-    top: -40px;        /* moves the image up */
-    right: 0;
+    /* We are removing the absolute positioning to allow the image to flow with the rest of the content */
+    top: auto; /* Revert this property */
+    right: auto; /* Revert this property */
     width: 50%;
-    height: auto;      /* prevents it from stretching */
+    height: auto;
     background: transparent;
     transition: 3s;
+    /* You can use margins to position the image on the right if you like */
+    margin-left: 10%;
 }
 
 
-.home-imgHover:hover {
-    background: var(--bg-color);
-    opacity: .8;
+.home-imgHover img {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 
@@ -786,3 +788,4 @@ section:nth-child(odd) .animate.scroll,
         width: 0;
     }
 }
+
