@@ -294,10 +294,10 @@ section {
 
 /* About Section */
 .about {                                  
-  top: -30px;
-  background: var(--bg-color); /* fixed custom property */
-  padding: 300px 15%;
-  color: var(--text-color);
+ 
+    background: var(--bg-color);
+    padding: 30px 15%;
+    color: var(--text-color);
 }
 
 /* Heading */
@@ -788,4 +788,5 @@ section:nth-child(odd) .animate.scroll,
         width: 0;
     }
 }
+
 
