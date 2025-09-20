@@ -18,7 +18,7 @@ html {
     --bg-color: #ffefd3;
     --second-bg-color: #112e42;
     --text-color: #000000;
-    --main-color: #98542b;
+    --main-color: #9E4105;
 }
 
 html {
@@ -788,5 +788,6 @@ section:nth-child(odd) .animate.scroll,
         width: 0;
     }
 }
+
 
 
